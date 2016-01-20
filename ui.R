@@ -32,7 +32,8 @@ shinyUI(pageWithSidebar(
                      ),
             tabPanel("Code",
                      h3("Code at this GitHub link:"),
-                     p(a("https://github.com/jmnanony", href="https://github.com/jmnanony"))
+                     p(a("https://github.com/jmnanony/DataProductShinyApp", 
+                         href="https://github.com/jmnanony/DataProductShinyApp"))
             )
         )
         
